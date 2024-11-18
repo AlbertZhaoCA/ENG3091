@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Kean ENG 3091 TECHNICAL WRITING Final Project
 
-## Getting Started
+# 如何部署本项目
 
-First, run the development server:
+### 先决条件
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Node.js](https://nodejs.org/) (包含 npm)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 安装 Node.js 和 npm
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+#### 在 Windows 上安装 Nodejs 和 NPM
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **下载 Node.js 安装程序**：
 
-## Learn More
+   - 访问 [Node.js 官方网站](https://nodejs.org/)。
+   - 点击下载最新的 LTS（长期支持）版本。
 
-To learn more about Next.js, take a look at the following resources:
+2. **运行安装程序**：
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - 下载完成后，运行安装程序。
+   - 按照安装向导的指示进行安装。确保选中 "Automatically install the necessary tools" 选项。
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **验证安装**：
 
-## Deploy on Vercel
+   - 打开命令提示符（Command Prompt）。
+   - 运行以下命令来验证安装：
+     ```bash
+     node -v
+     npm -v
+     ```
+   - 你应该会看到 Node.js 和 npm 的版本号。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. 克隆仓库：
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/AlbertZhaoCA/ENG3091
+   cd your-repo-name
+   ```
+
+5. 安装依赖
+
+   ```bash
+   npm install
+   ```
+
+6. 运行开发服务器
+   ```bahs
+   bpm run dev
+   ```
+
+预览数据都放在`@/data/`里面，具体数据放在`@/data/details`里，event数据用md或者mdx文件保存
