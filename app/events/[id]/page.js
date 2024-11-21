@@ -7,13 +7,12 @@ import events from "@/data/events";
 
 const EventPage = () => {
   const { id } = useParams();
-  const event = events.find((e) => e.id === id);
+  const event = events.find((e) => e.id == Number(id));
+  const related = events.filter((e) => event.club_id == Number(e.club_id));
 
   return (
     <div className="mt-24 container mx-auto p-4">
-      <main className="p-4">
-        {event ? <EventDetails event={event} /> : <p>Event not found</p>}
-      </main>
+        {event ? <EventDetails related={related} event={event} /> : <p>Event not found</p>}
     </div>
   );
 };

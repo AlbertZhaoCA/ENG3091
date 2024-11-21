@@ -28,9 +28,9 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-gray-100">
         <Header />
-        <main className="flex-grow p-4">
-          <div className="max-w-7xl mx-auto">{children}</div>
-        </main>
+        <div className="flex-grow  z-0">
+          <div className=" mx-auto">{children}</div>
+        </div>
         <Footer />
       </body>
     </html>

@@ -5,16 +5,16 @@ import { useEffect, useState } from "react";
 
 export default function Header() {
   const [showHeader, setShowHeader] = useState(true);
-  useEffect(() => {
-    let lastScrollY = window.scrollY;
+  const [lastScrollY, setLastScrollY] = useState(0);
 
+  useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > lastScrollY) {
         setShowHeader(false);
       } else {
         setShowHeader(true);
       }
-      lastScrollY = window.scrollY;
+      setLastScrollY(window.scrollY);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -22,11 +22,11 @@ export default function Header() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [lastScrollY]);
 
   return (
     <header
-      className={`shadow-md shadow-blue-200 bg-blue-600 text-white p-4 fixed top-0 w-full opacity-95 transition-transform duration-300 ${showHeader ? "translate-y-0" : "-translate-y-full"}`}
+      className={`z-50 shadow-md shadow-blue-200 bg-blue-600 text-white p-4 fixed top-0 w-full opacity-95 transition-transform duration-300 ${showHeader ? "translate-y-0" : "-translate-y-full"}`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-4">
@@ -36,36 +36,36 @@ export default function Header() {
               height={200}
               src="https://www.wku.edu.cn/sites/main.prod.dpmgr.wku.edu.cn/files/2023-08/WKU_Brand-2018-White.png"
               alt="Wenzhou-Kean University Logo"
-              className=""
+              className="cursor-pointer"
             />
           </Link>
         </div>
         <nav>
           <ul className="flex space-x-4">
             <li>
-              <a href="/clubs" className="hover:underline">
+              <Link href="/clubs">
                 Clubs
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/get-involved" className="hover:underline">
+              <Link href="/get-involved">
                 Get Involved
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/events" className="hover:underline">
+              <Link href="/events">
                 Events
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/about-us" className="hover:underline">
+              <Link href="/about-us">
                 About Us
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:underline">
+              <Link href="/contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
