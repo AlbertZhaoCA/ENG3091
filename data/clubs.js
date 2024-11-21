@@ -141,7 +141,7 @@ export const clubs = [
     name: "Wenzhou-Kean University Psychology Club",
     description:
       "The Psychology Club at Wenzhou-Kean University offers students a chance to learn about psychological theories and participate in related activities.",
-    logo: "https://se-images.campuslabs.com/clink/images/b5ec3b7d-c1c7-419a-ba64-29a2e79a1d8384e60ca2-7727-4617-a418-113666718232.png?preset=small-sq",
+    logo: "/psy.png",
   },
   {
     name: "Wenzhou-Kean University Science and Technology Club",

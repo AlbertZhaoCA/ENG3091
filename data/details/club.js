@@ -63,6 +63,9 @@ const organizationData = {
       },
     },
   ],
+
+  //psy club
+  
 };
 
 export default organizationData;

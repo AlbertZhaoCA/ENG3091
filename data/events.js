@@ -32,35 +32,39 @@ We thank everyone who supported and joined the event, and we look forward to mee
     description: "Publish an Online segment app, which can help you clip photos and do the image inpanting",
     date: "2024-11-10",
     club_id: "1",
-  },{
-    id: 6,
-    name: "Recruitment Briefing",
-    description: "Recruitment briefing with gifts and a lucky draw.",
-    club: "Psychological Society",
-    club_id: 2,
-    date: "2024-09-08"
   },
+
+    // Psychological Club events
+
   {
     id: 7,
-    name: "Registration Form",
-    description: "Fill in the registration form for club membership.",
-    club: "Psychological Society",
+    name: "Review of the New Student Recruitment Seminar & New Student Night Booth Activities",
+    description: "In this harvest season, we have completed the 2024 recruitment briefing. This recruitment not only brought in a lot of fresh blood, but also allowed us to see the enthusiasm and vitality of the new generation of WKU students. Now, let's review the wonderful moments of this recruitment~",
+    club: "Psychological Club",
     club_id: 2,
-    date: "2024-09-09"
+    date: "2024-09-10"
+  },
+  {
+    id: 6,
+    name: "Psychology Club 2024 Fall Recruitment",
+    description: "Discover the secret of mind! Join the Psychology Club this fall for exciting events and connections.",
+    club: "Psychological Club",
+    club_id: 2,
+    date: "2024-08-27"
   },
   {
     id: 8,
-    name: "List of Watch Brushes Released",
-    description: "Announcement of table brushing results.",
-    club: "Psychological Society",
+    name: "Psychological Club Icebreaking Recap",
+    description: "A warm gathering to welcome new friends and start the new semester.",
+    club: "Psychological Club",
     club_id: 2,
-    date: "2024-09-13"
+    date: "2024-10-02"
   },
   {
     id: 9,
     name: "Simple Interview",
     description: "Interview process for new members.",
-    club: "Psychological Society",
+    club: "Psychological Club",
     club_id: 2,
     date: "2024-09-14"
   },
@@ -68,7 +72,7 @@ We thank everyone who supported and joined the event, and we look forward to mee
     id: 10,
     name: "Autumn Collage Poem",
     description: "Create collage poems with autumn elements.",
-    club: "Psychological Society",
+    club: "Psychological Club",
     club_id: 2,
     date: "2024-11-08"
   },
@@ -82,6 +86,14 @@ We thank everyone who supported and joined the event, and we look forward to mee
   },
   {
     id: 12,
+    name: "Loong's Live | A summer romance on Friday night",
+    description: "Music event with various bands and artists.",
+    club: "Loong's Live",
+    club_id: 3,
+    date: "2024-11-10"
+  },
+  {
+    id: 13,
     name: "Loong's Live | A summer romance on Friday night",
     description: "Music event with various bands and artists.",
     club: "Loong's Live",
