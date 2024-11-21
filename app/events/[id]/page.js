@@ -12,7 +12,11 @@ const EventPage = () => {
 
   return (
     <div className="mt-24 container mx-auto p-4">
-        {event ? <EventDetails related={related} event={event} /> : <p>Event not found</p>}
+      {event ? (
+        <EventDetails related={related} event={event} />
+      ) : (
+        <p>Event not found</p>
+      )}
     </div>
   );
 };
