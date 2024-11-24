@@ -47,7 +47,7 @@ We thank everyone who supported and joined the event, and we look forward to mee
     date: "2024-09-08",
   },
   {
-    id: 6,
+    id: 7,
     name: "Psychology Club 2024 Fall Recruitment",
     description: "Discover the secret of mind! Join the Psychology Club this fall for exciting events and connections.",
     club: "Psychological Club",

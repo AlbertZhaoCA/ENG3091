@@ -48,6 +48,22 @@
    npm run dev
    ```
 
-预览数据都放在`@/data/`里面，具体数据放在`@/data/details`里，event数据用md或者mdx文件保存
+7. 更新
 
+``` bash
+git add --all
+git commit
+git push
+git commit -m "更新"
+```
+
+8. 更新本地代码
+
+``` bash
+git push
+```
+
+
+
+预览数据都放在`@/data/`里面，具体数据放在`@/data/details`里，event数据用md或者mdx文件保存
 
