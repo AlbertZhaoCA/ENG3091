@@ -53,7 +53,6 @@
 ``` bash
 git add --all
 git commit
-git push
 git commit -m "更新"
 ```
 
