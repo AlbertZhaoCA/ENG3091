@@ -55,9 +55,5 @@ Want to know more about mandala art therapy or missed this event but want to joi
 
 ![](c72d5dafebd8caf2c3c08e9ce9dfa964.png)
 
-**Text | Huang Xinyi**
 
-**Layout | Li Zimeng**
-
-**Review | Ma Xinlei, Zhang Yunhe, Weng Nuan**
 

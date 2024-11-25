@@ -93,15 +93,5 @@ DO YOU WANT A FREE HUG
 
 ![](9dcf8f2381e62727d5c39d41d910b9e6.png)
 
-Text & Layout  
-| Cheng Sijie
 
-Review  
-| Ma Xinlei, Zhang Yunhe, Weng Nuan
-
-Illustration  
-| Little Pony Who Draws, White Paper Remembers Zhang
-
-Images  
-| Sourced from the Internet and on-site photography
 

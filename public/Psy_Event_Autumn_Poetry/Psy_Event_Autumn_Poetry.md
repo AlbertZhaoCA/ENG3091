@@ -69,6 +69,3 @@ Although the activity has ended, the journey of poetry will never stop. We look 
 
 ![](c72d5dafebd8caf2c3c08e9ce9dfa964.png)
 
-Text: Liu Ziqian  
-Layout: Liu Ziqian  
-Review: Ma Xinlei, Zhang Yunhe, Weng Nuan

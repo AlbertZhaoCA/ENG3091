@@ -56,9 +56,5 @@ Group QR Code:
 
 ![](c72d5dafebd8caf2c3c08e9ce9dfa964.png)
 
-Text | Zhao Jingru
 
-Layout | Cheng Sijie
-
-Review | Ma Xinlei, Zhang Yunhe, Weng Nuan
 
