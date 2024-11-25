@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Club</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #4B9CD3, #FFFFFF);
+            color: #333;
+            overflow-x: hidden;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: linear-gradient(90deg, #2F80ED, #56CCF2);
+            padding: 10px 20px;
+            color: white;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            flex: 1;
+            text-align: center;
+        }
+
+        header .logo {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .section {
+            margin: 40px auto;
+            width: 70%;
+            text-align: center;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.95);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #2F80ED;
+        }
+        ul {
+            list-style-type: disc;
+            padding: 0;
+            font-size: 1.2rem;
+            text-align: left;
+            margin: 20px auto;
+            width: 80%;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        .activity-images {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin: 20px auto;
+        }
+        .activity-images img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            margin: 0 auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .activity-images img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="Computer_Club.png" alt="Computer Club Logo">
+        </div>
+        <h1>Computer Club</h1>
+    </header>
+
+    <!-- Department Section -->
+    <div class="section" id="department-setup">
+        <h2>Department Setup</h2>
+        <ul>
+            <li>Responsible for planning and executing the society's technical activities.</li>
+            <li>Responsible for the society's publicity work and event promotion.</li>
+            <li>Responsible for planning society events and ensuring smooth execution.</li>
+        </ul>
+    </div>
+
+    <!-- Team Structure Section -->
+    <div class="section" id="team-structure">
+        <h2>Team Structure</h2>
+        <ul>
+            <li><strong>Mentor:</strong> Maryam Cheraghy, Djigal Hamza</li>
+            <li><strong>President:</strong> He JiaZe</li>
+            <li><strong>Staff:</strong> There are a total of 121 students in recent years for the Computer Club. Current club members are around 50 students.</li>
+        </ul>
+    </div>
+
+    <!-- Activities Section -->
+    <div class="section" id="activities">
+        <h2>Activities</h2>
+        <ul>
+            <li>Java Workshop</li>
+            <li>Club Meeting</li>
+        </ul>
+        <div class="activity-images">
+            <img src="cs1.png" alt="Java Workshop">
+            <img src="cs2.png" alt="Club Meeting">
+            <img src="cs3.png" alt="Event Promotion">
+        </div>
+    </div>
+</body>
+</html>
