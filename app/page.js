@@ -1,6 +1,6 @@
 import { clubs } from "@/data/clubs";
 import CategoryAnimation from "@/components/Category";
-
+import Link from "next/link";
 export default function HomePage() {
   const shuffledClubs = clubs.sort(() => 0.5 - Math.random()).slice(0, 5);
 
@@ -21,7 +21,7 @@ export default function HomePage() {
             here go anywhere.
           </p>
           <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-            <div className="rounded-md shadow">
+            <div className="mt-12 rounded-md shadow">
               <a
                 href="http://wku.edu.cn"
                 className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 "
@@ -61,6 +61,26 @@ export default function HomePage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </div>
+
+      <div className="minh-screen pb-8 bg-gray-50">
+        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            Latest Event
+          </h2>
+          <div className="mt-8 news-container event flex flex-col space-y-4">
+            <Link className="text-blue-500 hover:underline" href="/events/psy_1">
+            PsyClub | Worries Grocery Store            </Link>
+            <Link className="text-blue-500 hover:underline" href="/events/psy_2">
+            PsyClub | Mandala Art Therapy            </Link>
+            <Link className="text-blue-500 hover:underline" href="/events/psy_3">
+            PsyClub | Free Hug
+            </Link>
+            <Link className="text-blue-500 hover:underline" href="/events/psy_4">
+            PsyClub | Autumn Collage Poetry Activity Review
+            </Link>
           </div>
         </div>
       </div>
