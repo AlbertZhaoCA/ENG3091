@@ -13,9 +13,7 @@ export function Club() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
       <div>
-        <header className="pt-24">
-          <h1 className="text-2xl">{club ? club.name : "Club Details"}</h1>
-        </header>
+
         <main className="p-4">
           {club ? <ClubDetails club={club} /> : <p>Club not found</p>}
         </main>
