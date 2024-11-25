@@ -5,7 +5,7 @@ const organizationData = {
       logo: "yva_logo.png",
       introduction:
         "青年志愿者协会是一个主要负责校内外相关志愿活动的组织。它聚集了一群志同道合、热衷于志愿工作的学生，并鼓励其他学生参与志愿活动，体验志愿精神。",
-      members: {
+      members: {The Youth Volunteer Association at Wenzhou-Kean University encourages students to engage in volunteer work and community service.
         mentor: "刘璐老师",
         president: "丁子宸",
         vicePresident: "陈舒桐",
