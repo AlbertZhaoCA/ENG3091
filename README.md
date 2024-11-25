@@ -59,7 +59,7 @@ git commit -m "更新"
 8. 更新本地代码
 
 ``` bash
-git push
+git pull
 ```
 
 
