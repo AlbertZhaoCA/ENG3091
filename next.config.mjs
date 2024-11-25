@@ -2,7 +2,8 @@
 const nextConfig = {
   images: {
     domains: ["www.wku.edu.cn"],
-  },  eslint: {
+  },
+  eslint: {
     ignoreDuringBuilds: true,
   },
 };

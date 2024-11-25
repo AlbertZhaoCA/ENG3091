@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
 import React from "react";
 import Link from "next/link";
-import { FaFacebook,FaPinterest,FaTwitter } from "react-icons/fa6";
+import { FaFacebook, FaPinterest, FaTwitter } from "react-icons/fa6";
 
 const EventDetails = ({ event, related }) => {
   const shareUrl = typeof window !== "undefined" ? window.location.href : "";
@@ -31,22 +31,39 @@ const EventDetails = ({ event, related }) => {
       <div className="lg:mt-0 lg:ml-8 lg:w-1/4 bg-white rounded-lg shadow-md p-6">
         <h3 className="text-2xl font-bold text-gray-800 ">Share the moments</h3>
         <div className="flex items-center justify-around space-x-4 w-3/4 mt-4">
-        <Link href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`} target="_blank" className="flex items-center space-x-2">
+          <Link
+            href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
+            target="_blank"
+            className="flex items-center space-x-2"
+          >
             <FaFacebook className="text-6xl text-blue-600 hover:text-blue-800" />
           </Link>
-          <Link href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(event.name)}`} target="_blank" className="flex items-center space-x-2">
+          <Link
+            href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(event.name)}`}
+            target="_blank"
+            className="flex items-center space-x-2"
+          >
             <FaTwitter className="text-6xl text-blue-400 hover:text-blue-600" />
           </Link>
-          <Link href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(shareUrl)}&description=${encodeURIComponent(event.name)}`} target="_blank" className="flex items-center space-x-2">
+          <Link
+            href={`https://pinterest.com/pin/create/button/?url=${encodeURIComponent(shareUrl)}&description=${encodeURIComponent(event.name)}`}
+            target="_blank"
+            className="flex items-center space-x-2"
+          >
             <FaPinterest className="text-6xl text-red-600 hover:text-red-800" />
           </Link>
         </div>
         <div className="mt-12">
-          <h3 className="text-2xl font-bold text-gray-800 mb-4">Related Events</h3>
+          <h3 className="text-2xl font-bold text-gray-800 mb-4">
+            Related Events
+          </h3>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             {related.map((event) => (
               <li key={event.id}>
-                <Link href={`/events/${event.id}`} className="text-blue-600 hover:underline">
+                <Link
+                  href={`/events/${event.id}`}
+                  className="text-blue-600 hover:underline"
+                >
                   {event.name}
                 </Link>
               </li>

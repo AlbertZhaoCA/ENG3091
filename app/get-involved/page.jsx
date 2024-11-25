@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import { useRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState } from "react";
 
 export default function GetInvolved() {
   const sectionRef = useRef(null);
@@ -9,7 +9,7 @@ export default function GetInvolved() {
   useEffect(() => {
     if (sectionRef.current) {
       setSectionHeight(sectionRef.current.offsetHeight);
-      console.log('Section height:', sectionRef.current.offsetHeight);
+      console.log("Section height:", sectionRef.current.offsetHeight);
     }
   }, []);
 
@@ -19,15 +19,19 @@ export default function GetInvolved() {
         <div className="flex flex-col justify-center pt-[84px] h-screen relative bg-gradient-to-r from-blue-500 to-indigo-600 text-white">
           <div
             className="absolute inset-0 bg-cover bg-center opacity-30"
-            style={{ backgroundImage: 'url(https://www.wku.edu.cn/sites/main.prod.dpmgr.wku.edu.cn/files/styles/crop_freeform/public/2024-04/ligongxueyuandalou_0.jpg?itok=nv9X836g)' }}
+            style={{
+              backgroundImage:
+                "url(https://www.wku.edu.cn/sites/main.prod.dpmgr.wku.edu.cn/files/styles/crop_freeform/public/2024-04/ligongxueyuandalou_0.jpg?itok=nv9X836g)",
+            }}
           ></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 text-center">
             <h1 className="text-8xl font-extrabold tracking-tight">
               Get Involved
             </h1>
             <p className="mt-8 max-w-3xl mx-auto text-2xl text-gray-200">
-              Join one of our many student clubs and organizations to enhance your university experience.
-              Whether you're interested in sports, culture, academics, or advocacy, there's a club for you!
+              Join one of our many student clubs and organizations to enhance
+              your university experience. Whether you're interested in sports,
+              culture, academics, or advocacy, there's a club for you!
             </p>
             <div className="mt-8 flex justify-center space-x-4">
               <a
@@ -45,7 +49,10 @@ export default function GetInvolved() {
             </div>
           </div>
         </div>
-        <div id='learn-more' className="relative bg-white py-16 sm:py-24 lg:py-32">
+        <div
+          id="learn-more"
+          className="relative bg-white py-16 sm:py-24 lg:py-32"
+        >
           <div className="absolute inset-0 bg-cover bg-center opacity-30"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
@@ -53,10 +60,22 @@ export default function GetInvolved() {
                 How to Get Involved
               </h2>
               <ul className="mt-8 list-disc list-inside text-gray-700 text-left mx-auto max-w-3xl space-y-4">
-                <li>Attend club fairs and events to learn more about different clubs.</li>
-                <li>Visit the club's website or social media pages for more information.</li>
-                <li>Contact club leaders to express your interest and ask any questions.</li>
-                <li>Participate in club meetings and activities to get a feel for the club's culture.</li>
+                <li>
+                  Attend club fairs and events to learn more about different
+                  clubs.
+                </li>
+                <li>
+                  Visit the club's website or social media pages for more
+                  information.
+                </li>
+                <li>
+                  Contact club leaders to express your interest and ask any
+                  questions.
+                </li>
+                <li>
+                  Participate in club meetings and activities to get a feel for
+                  the club's culture.
+                </li>
                 <li>Sign up and become an active member!</li>
               </ul>
             </div>
@@ -69,7 +88,9 @@ export default function GetInvolved() {
                 Benefits of Joining a Club
               </h2>
               <ul className="mt-8 list-disc list-inside text-gray-700 text-left mx-auto max-w-3xl space-y-4">
-                <li>Meet new people and make friends with similar interests.</li>
+                <li>
+                  Meet new people and make friends with similar interests.
+                </li>
                 <li>Develop leadership and teamwork skills.</li>
                 <li>Enhance your resume with extracurricular activities.</li>
                 <li>Participate in fun and engaging events.</li>
