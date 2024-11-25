@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="79274d27-b5cd-4649-897e-848b8eb6f029" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/ENG3091.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Youth Volunteer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/clubs.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/clubs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/details/club.js" beforeDir="false" afterPath="$PROJECT_DIR$/data/details/club.js" afterDir="false" />
-    </list>
+    <list default="true" id="79274d27-b5cd-4649-897e-848b8eb6f029" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
