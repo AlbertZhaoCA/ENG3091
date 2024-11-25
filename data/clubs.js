@@ -42,10 +42,10 @@ export const clubs = [
     logo: "https://se-images.campuslabs.com/clink/images/5cac1a3f-68b9-47fb-8718-1fe1cb9c45b96b23df43-06f1-4131-82af-f87b9feecda7.png?preset=small-sq",
   },
   {
-    name: "Wenzhou-Kean University Computing Club",
+    name: "Wenzhou-Kean University Computer Club",
     description:
-      "The Computing Club at Wenzhou-Kean University brings together students interested in computer science, technology, and programming.",
-    logo: "https://se-images.campuslabs.com/clink/images/ef36a924-a0d2-42f5-af3d-2090dde799a45639befe-4951-4985-aff1-70d4cf1837c4.jpg?preset=small-sq",
+      "Computer Club is a hub for tech enthusiasts passionate about joining hands to explore, create, and learn together, whether you are a coding maestro, a mobile application, a data structure, or a web design.  Computer club also play a important role in reporting current students’ research and project situations for other WKU students to inspire them and encourage more students to attend to computer practice.",
+    logo: "/Computer_Club",
   },
   {
     name: "Wenzhou-Kean University Cycling Club",
@@ -200,8 +200,8 @@ export const clubs = [
   {
     name: "Wenzhou-Kean University Youth Volunteer Association",
     description:
-      "The Youth Volunteer Association at Wenzhou-Kean University encourages students to engage in volunteer work and community service.",
-    logo: "https://se-images.campuslabs.com/clink/images/5cac1a3f-68b9-47fb-8718-1fe1cb9c45b96b23df43-06f1-4131-82af-f87b9feecda7.png?preset=small-sq",
+      "The youth volunteer association is an organization that mainly responsible for relevant volunteer activities on and off campus. It gathers a group of like-minded students that are enthusiasm with volunteer works and encourage other students to participate in volunteer activities to experience the spirit of volunteerism.",
+    logo: "/Youth Volunteer.png",
   },
 ];
 
