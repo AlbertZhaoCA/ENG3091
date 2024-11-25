@@ -39,8 +39,8 @@ const CategoryAnimation = () => {
       return {
         x: centerX + radius * Math.cos(angle),
         y: centerY + radius * Math.sin(angle),
-        speedX: (Math.random() - 0.5) * 2,
-        speedY: (Math.random() - 0.5) * 2,
+        speedX: (Math.random() - 0.5) * 10,
+        speedY: (Math.random() - 0.5) * 10,
       };
     });
 
@@ -134,7 +134,7 @@ const CategoryAnimation = () => {
 
   return (
     <div>
-      <h1 className="mt-24 text-4xl text-center tracking-wide">
+      <h1 className="mt-24 text-5xl text-center tracking-wide">
         Your Life Here Can be
         <span className="text-[#FF0000] text-7xl"> c</span>
         <span className="text-[#FF7F00] mx-[2px] text-7xl">o</span>
