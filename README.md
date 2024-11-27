@@ -44,13 +44,14 @@
    ```
 
 6. 运行开发服务器
+
    ```bash
    npm run dev
    ```
 
 7. 更新
 
-``` bash
+```bash
 git add --all
 git commit
 git commit -m "更新"
@@ -58,11 +59,8 @@ git commit -m "更新"
 
 8. 更新本地代码
 
-``` bash
+```bash
 git pull
 ```
 
-
-
 预览数据都放在`@/data/`里面，具体数据放在`@/data/details`里，event数据用md或者mdx文件保存
-

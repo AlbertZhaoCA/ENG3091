@@ -1,9 +1,43 @@
 export const clubs = [
   {
+    id: 3,
+    name: "Wenzhou-Kean University Art Trouple",
+    description:
+      "The Art Troupe at Wenzhou-Kean University is a group of students who share a passion for the arts, including music, dance, and drama.",
+    logo: "/4201732720728_.pic.jpg",
+    link: "/Music_Detail/Music_Detai.html",
+  },
+  {
+    id: 1,
     name: "Wenzhou-Kean University Science and Research Association",
-    description:"Diversified student organization primarily aimed at fostering an academic atmosphere and cultivating research capabilities.",
+    description:
+      "Diversified student organization primarily aimed at fostering an academic atmosphere and cultivating research capabilities.",
     logo: "/sralogo.jpg",
-    link:"/clubs/sra"
+    link: "http://wkusci.com",
+  },
+  {
+    name: "Wenzhou-Kean University Psychology Club",
+    description:
+      "The Psychology Club at Wenzhou-Kean University offers students a chance to learn about psychological theories and participate in related activities.",
+    logo: "/psy.png",
+    id: 2,
+    link: "psy_detail.html",
+  },
+  {
+    name: "Wenzhou-Kean University Computer Club",
+    description:
+      "Computer Club is a hub for tech enthusiasts passionate about joining hands to explore, create, and learn together, whether you are a coding maestro, a mobile application, a data structure, or a web design.  Computer club also play a important role in reporting current students’ research and project situations for other WKU students to inspire them and encourage more students to attend to computer practice.",
+    logo: "https://se-images.campuslabs.com/clink/images/ef36a924-a0d2-42f5-af3d-2090dde799a45639befe-4951-4985-aff1-70d4cf1837c4.jpg?preset=med-sq",
+    id: 4,
+    link: "Computer_page.html",
+  },
+  {
+    name: "Wenzhou-Kean University Youth Volunteer Association",
+    description:
+      "The youth volunteer association is an organization that mainly responsible for relevant volunteer activities on and off campus. It gathers a group of like-minded students that are enthusiasm with volunteer works and encourage other students to participate in volunteer activities to experience the spirit of volunteerism.",
+    logo: "/Youth Volunteer.png",
+    id: 5,
+    link: "Youth_page.html",
   },
   {
     name: "Wenzhou-Kean University Accounting Association",
@@ -47,12 +81,7 @@ export const clubs = [
       "The Center for Leadership and Service at Wenzhou-Kean University is committed to developing student leaders and encouraging community engagement.",
     logo: "https://se-images.campuslabs.com/clink/images/5cac1a3f-68b9-47fb-8718-1fe1cb9c45b96b23df43-06f1-4131-82af-f87b9feecda7.png?preset=small-sq",
   },
-  {
-    name: "Wenzhou-Kean University Computer Club",
-    description:
-      "Computer Club is a hub for tech enthusiasts passionate about joining hands to explore, create, and learn together, whether you are a coding maestro, a mobile application, a data structure, or a web design.  Computer club also play a important role in reporting current students’ research and project situations for other WKU students to inspire them and encourage more students to attend to computer practice.",
-    logo: "/Computer_Club",
-  },
+
   {
     name: "Wenzhou-Kean University Cycling Club",
     description:
@@ -143,12 +172,7 @@ export const clubs = [
       "The Ping-Pong Society at Wenzhou-Kean University is a club for table tennis enthusiasts to practice and compete.",
     logo: "https://se-images.campuslabs.com/clink/images/3069717e-eb12-4e7d-a1f7-884f6295ab7a3aa10674-b93a-4ab6-951d-dd3695adf3c6.png?preset=small-sq",
   },
-  {
-    name: "Wenzhou-Kean University Psychology Club",
-    description:
-      "The Psychology Club at Wenzhou-Kean University offers students a chance to learn about psychological theories and participate in related activities.",
-    logo: "/psy.png",
-  },
+
   {
     name: "Wenzhou-Kean University Science and Technology Club",
     description:
@@ -202,12 +226,6 @@ export const clubs = [
     description:
       "The Wharf Poetry Club at Wenzhou-Kean University is a creative space for students to express themselves through poetry and literature.",
     logo: "https://se-images.campuslabs.com/clink/images/837e3525-64d8-4db8-8f12-e780ee081e5e69dfad7f-a1b5-4d94-b645-46048d0bd610.png?preset=small-sq",
-  },
-  {
-    name: "Wenzhou-Kean University Youth Volunteer Association",
-    description:
-      "The youth volunteer association is an organization that mainly responsible for relevant volunteer activities on and off campus. It gathers a group of like-minded students that are enthusiasm with volunteer works and encourage other students to participate in volunteer activities to experience the spirit of volunteerism.",
-    logo: "/Youth Volunteer.png",
   },
 ];
 
