@@ -1,5 +1,11 @@
 export const clubs = [
   {
+    name: "Wenzhou-Kean University Science and Research Association",
+    description:"Diversified student organization primarily aimed at fostering an academic atmosphere and cultivating research capabilities.",
+    logo: "/sralogo.jpg",
+    link:"/clubs/sra"
+  },
+  {
     name: "Wenzhou-Kean University Accounting Association",
     description:
       "The Accounting Association at Wenzhou-Kean University provides students with resources and opportunities to enhance their accounting knowledge and skills.",
