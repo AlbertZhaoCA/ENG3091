@@ -141,7 +141,7 @@ const events = [
         "and spread positive energy at Wenzhou-Kean University's inaugural Host Competition. This exciting event offers a platform for students to shine, enhance their abilities, and connect through cultural exchange. " +
         "Don’t miss the chance to participate and compete for amazing rewards. Sign up now!",
     club: "Art Troupe",
-    url: "Music_Event_Host_Comp.html",
+    url: "/Music_Event_Host_Comp.html",
     cover: "ad0bf10448675571d02c2294d66557a9.png",
     club_id: 3,
     date: "2024-10-27",
