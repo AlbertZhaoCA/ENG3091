@@ -29,6 +29,28 @@ const events = [
     club: "WKU-SRA",
   },
   {
+    id: 4,
+    name: "Activities of Computer club",
+    description:
+      "Computer Club is a hub for tech enthusiasts passionate about joining hands to explore, create, and learn together, whether you are a coding maestro, a mobile application, a data structure, or a web design.  ",
+    club: "Computer Club",
+    cover: "083a0f2be3e4fd9916a4837bace6e3e1.jpeg",
+    club_id: 4,
+    date: "2024-5-10",
+    url: "/Computer_Activities_page.html"
+  },
+  {
+    id: 5,
+    name: "Activities of Youth Volunteer Association",
+    description:
+      "The youth volunteer association is an organization that mainly responsible for relevant volunteer activities on and off campus.",
+    club: "Youth Volunteer Association",
+    cover: "083a0f2be3e4fd9916a4837bace6e3e1.jpeg",
+    club_id: 5,
+    date: "2024-5-10",
+    url: "/Youth_Activities_page.html"
+  },
+  {
     id: 7,
     name: "Psychology Club Autumn Poerty",
     description:
