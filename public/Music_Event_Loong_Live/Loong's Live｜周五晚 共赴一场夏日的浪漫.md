@@ -1,4 +1,5 @@
 # Loong's Live | A Romantic Summer Night on Friday
+
 WKU Art Troupe 2024-05-09 18:52
 
 It is the long-missed summer night breeze
@@ -168,6 +169,3 @@ Limited quantity, first come, first served
 **For a romantic summer night**
 
 **♥**
-
-
-

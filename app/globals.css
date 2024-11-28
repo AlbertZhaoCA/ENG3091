@@ -30,7 +30,6 @@ body {
   @apply min-h-inherit;
 }
 
-
 .event img {
   margin: 20px auto; /* 设置图片的上下左右边距 */
   width: 100%; /* 设置图片宽度为100% */
@@ -53,4 +52,3 @@ body {
   text-align: justify; /* 设置文本对齐方式 */
   padding: 0 1rem; /* 设置段落的左右内边距 */
 }
-

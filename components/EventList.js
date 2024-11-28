@@ -1,23 +1,43 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import { Card } from "@/components/ui/content-card";
 
 const EventList = ({ events }) => {
+  const [currentPage, setCurrentPage] = useState(1);
+  const eventsPerPage = 6;
+
+  const indexOfLastEvent = currentPage * eventsPerPage;
+  const indexOfFirstEvent = indexOfLastEvent - eventsPerPage;
+  const currentEvents = events.slice(indexOfFirstEvent, indexOfLastEvent);
+
+  const totalPages = Math.ceil(events.length / eventsPerPage);
+
+  const handleClick = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
   return (
-    <div className="grid grid-cols-1 gap-4">
-      {events.map((event) => (
-        <Link
-          className="block p-4 bg-white shadow-md rounded-lg hover:bg-gray-100"
-          key={event.id}
-          href={`/events/${event.id}`}
-        >
-          <h3 className="text-xl font-bold">{event.name}</h3>
-          <p className="text-gray-700">{event.description}</p>
-          <p className="text-gray-500">{event.date}</p>
-          {event.cover && <Image width={200} height={200} />}
-          <p className="text-gray-500">Hosted by: {event.club}</p>
-        </Link>
-      ))}
+    <div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {currentEvents.map((event) => (
+          <Link className="w-full" key={event.id} href={`events/${event.id}`}>
+            <Card event={event} />
+          </Link>
+        ))}
+      </div>
+      <div className="flex justify-center mt-8">
+        {Array.from({ length: totalPages }, (_, index) => (
+          <button
+            key={index + 1}
+            onClick={() => handleClick(index + 1)}
+            className={`px-4 py-2 mx-1 rounded ${currentPage === index + 1 ? "bg-blue-500 text-white" : "bg-gray-200 text-gray-700"}`}
+          >
+            {index + 1}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };

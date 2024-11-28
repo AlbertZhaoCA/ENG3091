@@ -17,12 +17,13 @@ const CategoryAnimation = () => {
   const canvasRef = useRef(null);
   const animationRef = useRef(null);
   const isAnimating = useRef(false);
-  const isScrolling = useRef(false);
+  const angleOffsets = useRef([]);
 
   const positions = useRef([]);
   const colors = useRef([]);
   const canvasWidth = useRef(0);
   const canvasHeight = useRef(0);
+  const baseSpeed = 1.25;
 
   const getRandomColor = () => {
     const randomInt = () => Math.floor(Math.random() * 256);
@@ -39,20 +40,18 @@ const CategoryAnimation = () => {
       return {
         x: centerX + radius * Math.cos(angle),
         y: centerY + radius * Math.sin(angle),
-        speedX: (Math.random() - 0.5) * 10,
-        speedY: (Math.random() - 0.5) * 10,
+        baseX: centerX + radius * Math.cos(angle),
+        baseY: centerY + radius * Math.sin(angle),
+        radiusX: 50 + Math.random() * 50,
+        radiusY: 50 + Math.random() * 50,
       };
     });
 
-    colors.current = categories.map(() => getRandomColor()); // Assign random colors to each category
+    angleOffsets.current = categories.map(() => Math.random() * Math.PI * 2);
+    colors.current = categories.map(() => getRandomColor());
 
     canvasWidth.current = canvas.width;
     canvasHeight.current = canvas.height;
-  };
-
-  const resetToInitialPositions = () => {
-    const canvas = canvasRef.current;
-    setupInitialPositions(canvas);
   };
 
   const startAnimation = () => {
@@ -65,21 +64,22 @@ const CategoryAnimation = () => {
       setupInitialPositions(canvas);
     }
 
+    let time = 0;
+
     const draw = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
+      const speedMultiplier = 1.25 + Math.sin(time / 2) * 0.5; 
+      time += baseSpeed * speedMultiplier; 
+
       positions.current.forEach((p, index) => {
+        const angle = time / 50 + angleOffsets.current[index];
+        p.x = p.baseX + p.radiusX * Math.sin(angle);
+        p.y = p.baseY + p.radiusY * Math.cos(angle);
+
         ctx.font = "32px monospace";
-        ctx.fillStyle = colors.current[index]; 
+        ctx.fillStyle = colors.current[index];
         ctx.fillText(categories[index], p.x, p.y);
-
-        if (isScrolling.current) {
-          p.x += p.speedX;
-          p.y += p.speedY;
-
-          if (p.x < 50 || p.x > canvasWidth.current - 50) p.speedX *= -1;
-          if (p.y < 50 || p.y > canvasHeight.current - 50) p.speedY *= -1;
-        }
       });
 
       animationRef.current = requestAnimationFrame(draw);
@@ -105,30 +105,17 @@ const CategoryAnimation = () => {
           startAnimation();
         } else {
           pauseAnimation();
-          resetToInitialPositions();
         }
       },
-      { threshold: 0.1 },
+      { threshold: 0.1 }
     );
 
     const canvasElement = canvasRef.current;
     observer.observe(canvasElement);
 
-    const handleScroll = () => {
-      isScrolling.current = true;
-      clearTimeout(isScrolling.current);
-
-      setTimeout(() => {
-        isScrolling.current = false;
-      }, 200);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
     return () => {
       observer.disconnect();
       pauseAnimation();
-      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -146,9 +133,7 @@ const CategoryAnimation = () => {
         <span className="text-[#FF00FF] mx-[2px] text-8xl">L</span>
         <span className="text-black text-8xl">L</span>
       </h1>
-      <canvas
-        ref={canvasRef}
-      />
+      <canvas ref={canvasRef} />
     </div>
   );
 };
