@@ -1,13 +1,14 @@
 # PsyClub | Free Hug
-WKU PsyClub  2024-11-15 16:35
+
+WKU PsyClub 2024-11-15 16:35
 
 **FREE HUG**
 
 Do you want a free hug?
 
-![](8292a0e0429d474052ffed0200a28780.png)
+![](/8292a0e0429d474052ffed0200a28780.png)
 
-![](2ca95c30b039b130a1ac023008684bee.png)
+![](/2ca95c30b039b130a1ac023008684bee.png)
 
 **WE WANT A BIG HUG**
 
@@ -15,38 +16,38 @@ The reason for longing for a hug is simple,
 we are human,  
 and the heart is a sensitive muscle.
 
-— Jón Kalman Stefánsson, *Fish Have No Feet*
+— Jón Kalman Stefánsson, _Fish Have No Feet_
 
 The tremendous pressure of study and life often leaves us breathless;  
 Emotional communication and relationship maintenance between people are often neglected.
 
-![](d7cf4f533418e59e515c363c01032b42.png)
+![](/d7cf4f533418e59e515c363c01032b42.png)
 
 In modern society, the fast-paced lifestyle and highly digitalized means of communication often lead to increased emotional distance between people. Many people neglect emotional communication and relationship maintenance amidst busy work and study. This not only makes individuals feel lonely but also reduces emotional communication between people, affecting the warmth and cohesion of society.
 
 **What you need at this moment may be a hug.**
 
-![](2813cafb6cfe6ffc6472a92c248b2969.png)
+![](/2813cafb6cfe6ffc6472a92c248b2969.png)
 
-![](2ca95c30b039b130a1ac023008684bee.png)
+![](/2ca95c30b039b130a1ac023008684bee.png)
 
 HUG HUG
 
-![](c9ec22e427337ec0025c407e74d239f6.png)
+![](/c9ec22e427337ec0025c407e74d239f6.png)
 
-![](c9ec22e427337ec0025c407e74d239f6.png)
+![](/c9ec22e427337ec0025c407e74d239f6.png)
 
 **A hug can relieve 120% of stress**
 
 A hug is a simple way to build a connection between people, an act of giving and receiving, a silent yet powerful language. Without words, a hug can convey emotional support accurately.
 
-**0****1**
+**0\*\***1\*\*
 
 Generates dopamine, brings happiness
 
 Dopamine is the source of good emotions and motivation. From a psychological perspective, hugging can promote the release of dopamine, bringing joy and happiness.
 
-**0****2**
+**0\*\***2\*\*
 
 Helps release serotonin and oxytocin, reduces stress
 
@@ -60,15 +61,15 @@ give you a hug,
 and tell you,  
 you are not broken.
 
-— Pan Bolin, *I Didn't Plan to Explain My Sadness to You*
+— Pan Bolin, _I Didn't Plan to Explain My Sadness to You_
 
 GIVE YOU A BIG BIG HUG
 
-![](b31cb792c30454499763fafeaa74b930.png)
+![](/b31cb792c30454499763fafeaa74b930.png)
 
 HUG ME HUG YOU
 
-![](b31cb792c30454499763fafeaa74b930.png)
+![](/b31cb792c30454499763fafeaa74b930.png)
 
 **PsyClub × FREE HUG**
 
@@ -91,7 +92,4 @@ DO YOU WANT A FREE HUG
 
 **Event Location: In front of the second cafeteria**
 
-![](9dcf8f2381e62727d5c39d41d910b9e6.png)
-
-
-
+![](/9dcf8f2381e62727d5c39d41d910b9e6.png)

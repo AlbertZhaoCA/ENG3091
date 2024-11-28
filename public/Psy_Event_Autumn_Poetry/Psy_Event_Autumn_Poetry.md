@@ -1,15 +1,10 @@
 # PsyClub | Autumn Collage Poetry Activity Review
-WKU PsyClub  2024-11-12 21:02
+
+WKU PsyClub 2024-11-12 21:02
 
 Autumn Collage Poetry
 
-||||||||  Start the beauty of autumn   ||||||||
-
-2024.11
-
-Psy
-
-poetry
+## Psy poetry
 
 Our autumn collage poetry activity has successfully concluded! 🎉📜 In this golden season,  
 we used words together to  
@@ -65,7 +60,4 @@ Although the activity has ended, the journey of poetry will never stop. We look 
 
 ![](6ff5f6d921b9284784576793bb98e974.jpeg)
 
-2024..11
-
 ![](c72d5dafebd8caf2c3c08e9ce9dfa964.png)
-

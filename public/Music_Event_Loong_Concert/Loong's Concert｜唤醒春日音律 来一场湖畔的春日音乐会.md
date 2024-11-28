@@ -1,4 +1,5 @@
 # Loong's Concert | Awaken the Spring Melody - A Lakeside Spring Concert
+
 WKU Art Troupe 2024-03-28 19:56
 
 As the spring breeze gently caresses the lakeside, we sincerely invite you to join us on a wonderful journey of melody. In this season full of vitality and hope, we will build a musical hall by the central lake on campus, playing melodious pieces for you.
@@ -52,4 +53,3 @@ For more series of activities, please follow the Art Troupe's official account a
 The "Art Affairs" Art Festival welcomes everyone who loves art!
 
 ![](95bb78386156a72dca754e595a42bd4a.jpeg)
-

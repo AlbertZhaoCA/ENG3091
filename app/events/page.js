@@ -6,7 +6,7 @@ const EventsPage = () => {
   return (
     <div className="container mx-auto p-4">
       <header className="mt-24 p-4 text-center">
-        <h1 className="text-2xl">Events</h1>
+        <h1 className="text-2xl bold">Events And Activities</h1>
       </header>
       <main className="p-4">
         <EventList events={events} />

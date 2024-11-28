@@ -1,7 +1,8 @@
 # PsyClub | Worries Grocery Store
-WKU PsyClub  2024-10-13 17:50
 
-![](86085f81e8b3d7de129484e464356c51.png)
+WKU PsyClub 2024-10-13 17:50
+
+![](/86085f81e8b3d7de129484e464356c51.png)
 
 Golden Autumn
 
@@ -16,7 +17,7 @@ and broadening our horizons.
 
 When facing an uncertain and challenging future, or reminiscing about the past full of obsession and letting go, have you ever had unspoken feelings?
 
-![](867c216163054c00e09c429f0c11a213.png)
+![](/867c216163054c00e09c429f0c11a213.png)
 
 In response, PsyClub is launching the  
 **"Worries Grocery Store"**  
@@ -26,7 +27,7 @@ This is an event prepared for everyone's inner monologue and desire to share,
 aiming to provide an opportunity for anonymous or selective real-name communication,  
 allowing students to share their experiences, broaden their social circle, meet more interesting people, and understand more about the journey of others. Together with PsyClub, why fear a distant future?
 
-![](cca9f5a5379867975995ead29ef74137.png)
+![](/cca9f5a5379867975995ead29ef74137.png)
 
 This activity is rich in content, mainly including
 
@@ -42,9 +43,9 @@ Let's open our hearts through communication, better understand the world, and al
 
 Standing in the wilderness, any direction is forward.
 
-![](e2448bb9afc1ecac565746b004fb9c45.png)
+![](/e2448bb9afc1ecac565746b004fb9c45.png)
 
-![](cd282b27aeb759072010cd66ae77ff3f.png)
+![](/cd282b27aeb759072010cd66ae77ff3f.png)
 
 **Event Time:** October 16th - 18th
 
@@ -52,9 +53,6 @@ Standing in the wilderness, any direction is forward.
 
 Group QR Code:
 
-![](ec975297d6d1f2d87b3e428d66a385d2.png)
+![](/ec975297d6d1f2d87b3e428d66a385d2.png)
 
-![](c72d5dafebd8caf2c3c08e9ce9dfa964.png)
-
-
-
+![](/c72d5dafebd8caf2c3c08e9ce9dfa964.png)

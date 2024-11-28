@@ -1,4 +1,5 @@
 # Loong's Workshop | The Collision of Cultural Integration - Each One a Unique Artistic Experience
+
 WKU Art Troupe 2024-05-21 20:53
 
 Art is a bridge
@@ -130,4 +131,3 @@ Every artist brought us a unique and valuable perspective, allowing us to unders
 Thank you to all the participants for your enthusiasm and dedication. It is your hard work that made this wonderful event possible.
 
 Let us continue to enrich our campus life through art, and may our artistic journey never end. May the WKU giant ship sail towards an even brighter shore!
-
