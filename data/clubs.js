@@ -13,7 +13,7 @@ export const clubs = [
     description:
       "Diversified student organization primarily aimed at fostering an academic atmosphere and cultivating research capabilities.",
     logo: "/sralogo.jpg",
-    link: "http://wkusci.com",
+    link: "/club?name=Wenzhou-Kean%20University%20Science%20and%20Research%20Association",
   },
   {
     name: "Wenzhou-Kean University Psychology Club",
