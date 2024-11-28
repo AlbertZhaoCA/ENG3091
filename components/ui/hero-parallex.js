@@ -132,7 +132,7 @@ export const ProductCard = ({ product, translate }) => {
       className="group/product h-96 w-[30rem] relative flex-shrink-0"
     >
       <Link
-        href={product.logo}
+        href={product.link}
         className="block group-hover/product:shadow-2xl "
       >
         <Image

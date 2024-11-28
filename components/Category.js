@@ -69,8 +69,8 @@ const CategoryAnimation = () => {
     const draw = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      const speedMultiplier = 1.25 + Math.sin(time / 2) * 0.5; 
-      time += baseSpeed * speedMultiplier; 
+      const speedMultiplier = 1.25 + Math.sin(time / 2) * 0.5;
+      time += baseSpeed * speedMultiplier;
 
       positions.current.forEach((p, index) => {
         const angle = time / 50 + angleOffsets.current[index];
@@ -107,7 +107,7 @@ const CategoryAnimation = () => {
           pauseAnimation();
         }
       },
-      { threshold: 0.1 }
+      { threshold: 0.1 },
     );
 
     const canvasElement = canvasRef.current;

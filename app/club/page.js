@@ -4,10 +4,11 @@ import ClubDetails from "@/components/ClubDetails";
 import clubs from "@/data/clubs";
 import { Suspense } from "react";
 import Plugin from "@/components/ContentPlugin";
+import SRA from "./sra";
 
 export function Club() {
   const searchParams = useSearchParams();
-  name = searchParams.get("name");
+  let name = searchParams.get("name");
 
   const club = clubs.find((c) => c.name === name);
 
@@ -20,7 +21,13 @@ export function Club() {
           </main>
         </div>
       )}
-      {club.link && <Plugin className="pt-20" path={club.link} />}
+      {name === "Wenzhou-Kean University Science and Research Association" && (
+        <SRA />
+      )}
+      {club.link &&
+        name !== "Wenzhou-Kean University Science and Research Association" && (
+          <Plugin className="pt-20" path={club.link} />
+        )}
     </Suspense>
   );
 }

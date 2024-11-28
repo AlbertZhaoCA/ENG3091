@@ -67,6 +67,7 @@ export default function Footer() {
                 </ul>
               </div>
               <div className="flex flex-col justify-center items-center">
+                <div>
                 <h3 className="text-md font-semibold leading-6 text-white">
                   Resources
                 </h3>
@@ -81,23 +82,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/projects"
-                      className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                    >
-                      Projects
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/blog"
-                      className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                    >
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/terms"
+                      href="/用户协议.pdf"
                       className="text-md leading-6 text-gray-300 hover:text-gray-50"
                     >
                       Terms of Service
@@ -105,13 +90,15 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="/privacy"
+                      href="/privacy.pdf"
                       className="text-md leading-6 text-gray-300 hover:text-gray-50"
                     >
                       Privacy Policy
                     </a>
                   </li>
                 </ul>
+                </div>
+               
               </div>
               <div>
                 <h3 className="text-md font-semibold leading-6 text-white">
