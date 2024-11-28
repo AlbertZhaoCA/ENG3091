@@ -52,8 +52,11 @@
 
 ``` bash
 git add --all
-git commit
+# 上传到本地的一个预备区
 git commit -m "更新"
+# 上传到本地仓库
+git push
+# 上传到网络上的github
 ```
 
 8. 更新本地代码
