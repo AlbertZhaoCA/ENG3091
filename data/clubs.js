@@ -26,7 +26,7 @@ export const clubs = [
   {
     name: "Wenzhou-Kean University Computer Club",
     description:
-      "Computer Club is a hub for tech enthusiasts passionate about joining hands to explore, create, and learn together, whether you are a coding maestro, a mobile application, a data structure, or a web design.  Computer club also play a important role in reporting current students’ research and project situations for other WKU students to inspire them and encourage more students to attend to computer practice.",
+      "Computer Club is a hub for tech enthusiasts passionate about joining hands to explore, create, and learn together, whether you are a coding maestro, a mobile application, a data structure, or a web design. ",
     logo: "https://se-images.campuslabs.com/clink/images/ef36a924-a0d2-42f5-af3d-2090dde799a45639befe-4951-4985-aff1-70d4cf1837c4.jpg?preset=med-sq",
     id: 4,
     link: "Computer_page.html",

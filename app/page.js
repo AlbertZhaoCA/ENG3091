@@ -2,6 +2,7 @@ import { clubs } from "@/data/clubs";
 import CategoryAnimation from "@/components/Category";
 import Link from "next/link";
 import { HeroParallax } from "@/components/ui/hero-parallex";
+import ClubCardStack from "@/components/CardStack";
 
 export default function HomePage() {
   const shuffledClubs = clubs.slice(0, 5);
@@ -12,37 +13,14 @@ export default function HomePage() {
 
       <CategoryAnimation />
 
-      <div className="minh-screen pb-8 bg-gray-50">
+      <div className="min-h-screen pb-8 mb-8">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          <h1 className="text-4xl mb-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Wenzhou-Kean University clubs gather communities around sports,
             culture, academics, advocacy and more.
           </h1>
-          <div className="mt-24  grid grid-cols-1 gap-y-10 gap-x-8 sm:grid-cols-2 lg:grid-cols-3">
-            {shuffledClubs.map((club, index) => (
-              <div key={`${club.name}-${index}`}>
-                <div className="aspect-w-3 aspect-h-2">
-                  <img
-                    className="object-cover shadow-lg rounded-lg"
-                    src={club.logo}
-                    alt={club.name}
-                  />
-                </div>
-                <div className="mt-4">
-                  <h3 className="text-lg font-medium text-gray-900">
-                    {club.name}
-                  </h3>
-                  <p className="mt-2 text-base text-gray-500">
-                    {club.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <div className="minh-screen pb-8 bg-gray-50">
+          <div className="grid grid-cols-2 place-items-center gap-24">
+          <ClubCardStack />
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
           <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Latest Event
@@ -50,29 +28,32 @@ export default function HomePage() {
           <div className="mt-8 news-container event flex flex-col space-y-4">
             <Link
               className="text-blue-500 hover:underline"
-              href="/events/psy_1"
+              href="/events/10"
             >
               PsyClub | Worries Grocery Store{" "}
             </Link>
             <Link
               className="text-blue-500 hover:underline"
-              href="/events/psy_2"
+              href="/events/3"
             >
-              PsyClub | Mandala Art Therapy{" "}
+              WKU-SRA | Ice Break{" "}
             </Link>
             <Link
               className="text-blue-500 hover:underline"
-              href="/events/psy_3"
+              href="/events/11"
             >
-              PsyClub | Free Hug
+              ArtTroupe | Loong's Workshop
             </Link>
             <Link
               className="text-blue-500 hover:underline"
-              href="/events/psy_4"
+              href="/events/7"
             >
               PsyClub | Autumn Collage Poetry Activity Review
             </Link>
           </div>
+        </div>
+          </div>
+     
         </div>
       </div>
     </div>

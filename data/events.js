@@ -34,7 +34,7 @@ const events = [
     description:
       "Computer Club is a hub for tech enthusiasts passionate about joining hands to explore, create, and learn together, whether you are a coding maestro, a mobile application, a data structure, or a web design.  ",
     club: "Computer Club",
-    cover: "083a0f2be3e4fd9916a4837bace6e3e1.jpeg",
+    cover: "/cs1.png",
     club_id: 4,
     date: "2024-5-10",
     url: "/Computer_Activities_page.html"
@@ -45,7 +45,7 @@ const events = [
     description:
       "The youth volunteer association is an organization that mainly responsible for relevant volunteer activities on and off campus.",
     club: "Youth Volunteer Association",
-    cover: "083a0f2be3e4fd9916a4837bace6e3e1.jpeg",
+    cover: "Youth2.png",
     club_id: 5,
     date: "2024-5-10",
     url: "/Youth_Activities_page.html"
