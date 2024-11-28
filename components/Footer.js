@@ -96,6 +96,14 @@ export default function Footer() {
                       Privacy Policy
                     </a>
                   </li>
+                  <li>
+                    <a
+                      href="/attributions"
+                      className="text-md leading-6 text-gray-300 hover:text-gray-50"
+                    >
+                      Attribution And References
+                    </a>
+                  </li>
                 </ul>
                 </div>
                
