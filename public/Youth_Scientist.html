@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youth Volunteer Association</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(120deg, #87cefa, #ffffff);
+        color: #333;
+        overflow-x: hidden;
+         font-size:1.2rem
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(90deg, #ff6f61, #ff8c42);
+        padding: 10px 20px;
+        color: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+      header h1 {
+        font-size: 2.5rem;
+        margin: 0;
+        flex: 1;
+        text-align: center;
+      }
+      header .logo {
+        width: 100px; /* 设置圆形的宽度 */
+        height: 100px; /* 设置圆形的高度 */
+        border-radius: 50%; /* 使其成为圆形 */
+        overflow: hidden; /* 防止溢出 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo img {
+        width: 100%; /* 图片宽度填满容器 */
+        height: 100%; /* 图片高度填满容器 */
+        object-fit: cover; /* 保持图片的比例并完整显示 */
+      }
+
+      .section {
+        margin: 40px auto;
+        width: 70%;
+        text-align: center;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+      }
+      h2 {
+        font-size: 2rem;
+        color: #ff6f61;
+      }
+      ul {
+        list-style-type: disc;
+        padding: 0;
+        font-size: 1.2rem;
+        text-align: left;
+        margin: 20px auto;
+        width: 80%;
+      }
+      ul li {
+        margin: 10px 0;
+      }
+      .activity-images {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px auto;
+      }
+      .activity-images img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      }
+      .activity-images img:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+      }
+      .heart-container {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        pointer-events: none;
+      }
+      .heart {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: red;
+        transform: rotate(45deg);
+        animation: floatUp 6s ease-in-out infinite;
+      }
+      .heart::before,
+      .heart::after {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: red;
+        border-radius: 50%;
+      }
+      .heart::before {
+        top: -10px;
+        left: 0;
+      }
+      .heart::after {
+        left: 10px;
+        top: 0;
+      }
+      @keyframes floatUp {
+        0% {
+          transform: translate(-50%, 100vh) rotate(45deg);
+          opacity: 1;
+        }
+        100% {
+          transform: translate(-50%, -10vh) rotate(45deg);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="logo">
+        <img src="Youth Volunteer.png" alt="Youth Volunteer Association Logo" />
+      </div>
+      <h1>World Young Scientist Summit</h1>
+    </header>
+
+    <div class="activity-images">
+        <img src="Youth_Scientist/服务照片2.webp" alt="Blood Donation Event" />
+      </div>
+
+    <div class="section">
+      <h2>1.  World Young Scientist Summit</h2>
+      <p style="text align - left">The World Young Scientist Summit was held in Wenzhou from November 16 to 17, 2024, focusing on youth innovation and shaping new productive forces. Wenzhou-Kean University, as the organizer of the International Health Forum, saw its volunteers provide services at various positions for academicians, young scientists, and entrepreneurs from both domestic and international backgrounds, ensuring the smooth operation of the conference through their professional reception and service.</p>
+      <div class="activity-images">
+        <img src="Youth_Scientist/会徽.webp" alt="Blood Donation Event" />
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>2.  WKU volunteers</h2>
+      <li>The volunteers of Wenzhou-Kean University took on various responsibilities, including communication, guest reception, venue guidance, and stage assistance. With a positive and enthusiastic attitude, as well as sincere smiles, the volunteers warmly welcomed every guest, demonstrating excellent service spirit and earning unanimous praise from the attendees.</li>
+      <div class="activity-images">
+        <img src="Youth_Scientist/合照2.jpg" alt="Blood Donation Event" />
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>3. Volunteer Contributions in Key Forum Activities</h2>
+      <ul style="text-align: left;">
+        <li>
+          <h3>3.1 "Health Together" – Volunteer Efforts at the Main Forum of International Health</h3>
+          Volunteers witnessed the signing of the cooperation agreement between Wenzhou-Kean University and the Zhejiang Provincial Disease Control and Prevention Center, the establishment ceremony of the Wenzhou International Mental Health Center, and the signing of the International Health Initiative. Volunteers carefully arranged every seat, ensuring the smooth operation of the conference.
+        </li>
+
+        <li>
+          <h3>3.2 "Working Hand in Hand, Building Health" – Afternoon Forum on Environmental Health and Sustainable Development</h3>
+          In the afternoon session of the Environmental Health and Sustainable Development forum, the report introduced Wenzhou-Kean University’s three core initiatives for sustainable development. Volunteers actively guided the participants, ensuring that the conference ran smoothly and assisting the guests with interactions.
+        </li>
+
+        <li>
+          <h3>3.3 Volunteers in the Biodiversity and Bioinformatics Innovation Forum</h3>
+          At the Biodiversity and Bioinformatics Innovation Forum held at the College of Science and Engineering, volunteers warmly welcomed guests and assisted the expert scholars in delivering their presentations, ensuring the successful progression of the forum.
+        </li>
+      </ul>
+
+      <div class="activity-images">
+        <img src="Youth_Scientist/title.jpg" alt="Blood Donation Event" />
+      </div>
+    </div>
+
+
+   <div class="section">
+    <h2>4. Volunteer Reflections and Personal Experiences</h2>
+    <ul style="text-align: left;">
+      <li>
+        <h3>4.1 Hu Zehui's Volunteer Reflection</h3>
+        Hu Zehui shared her experience as an etiquette volunteer, emphasizing the importance of paying attention to details, which reflects the spirit of dedication and responsibility.
+      </li>
+
+      <li>
+        <h3>4.2 Yao Yuchen's Teamwork Experience</h3>
+        Yao Yuchen expressed the joy of working with the team and the pride of contributing to the success of the summit as a volunteer.
+      </li>
+
+      <li>
+        <h3>4.3 Zheng Siyuan's Experience with Guest Reception and Registration</h3>
+        Zheng Siyuan shared the joy of meeting professors during the airport pick-up and expressed his pride in connecting with scientists from all over the world during the registration process.
+      </li>
+
+      <li>
+        <h3>4.4 Geng Xufan’s Volunteer Experience</h3>
+        Geng Xufan talked about the importance of attention to detail as a registration volunteer and highlighted how the seemingly ordinary role actually holds extraordinary significance, where every effort contributes to growth.
+      </li>
+
+      <li>
+        <h3>4.5 Yang Silu's Participation Reflection</h3>
+        Yang Silu discussed her role as a volunteer in Sub-forum 1, assisting with the switching of speeches and ensuring that the presentations went smoothly. She emphasized that every small contribution is vital to the success of the event.
+      </li>
+    </ul>
+
+    <div class="activity-images">
+      <img src="Youth_Scientist/志愿者合照.webp" alt="Blood Donation Event" />
+    </div>
+  </div>
+
+
+    <div class="section">
+      <h2>5. The Spirit and Significance of Volunteer Service</h2>
+      <li>Volunteer service is not only a spirit but also a responsibility. The volunteers at Wenzhou-Kean University demonstrated the power of youth through their enthusiasm and service at the summit, contributing significantly to the success of the conference and bringing honor to the university.</li>
+
+      <div class="activity-images">
+       <img src="Youth_Scientist/服务照片1.webp" alt="Blood Donation Event" />
+      </div>
+    </div>
+
+
+
+    <!-- Heart Particle Effect -->
+    <div class="heart-container">
+      <!-- JavaScript will dynamically add hearts here -->
+    </div>
+
+    <script>
+      // Create dynamic hearts
+      const heartContainer = document.querySelector(".heart-container");
+      function createHeart() {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = Math.random() * 3 + 4 + "s";
+        heartContainer.appendChild(heart);
+
+        setTimeout(() => {
+          heart.remove();
+        }, 6000);
+      }
+      setInterval(createHeart, 400);
+    </script>
+  </body>
+</html>
