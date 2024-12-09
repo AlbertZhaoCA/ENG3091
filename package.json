@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.1",
+    "@tsparticles/engine": "^3.7.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^11.11.17",
     "fs": "^0.0.1-security",

@@ -8,30 +8,30 @@ export default function AttributionPage() {
   const generateAPA = (name, url, date) => {
     if (name === "Unknown") {
       return (
-        <>
+        <div className="text-black">
           "Vintage Camera" (n.d.). Retrieved from{" "}
           <a href={url} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
             {url}
           </a>
           . Public domain.
-        </>
+        </div>
       );
     } else {
       return (
-        <>
+        <div className="text-black">
           "{name}" by {name}, {date}. Retrieved from{" "}
           <a href={url} target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
             {url}
           </a>
           . Licensed under CC BY 4.0.
-        </>
+        </div>
       );
     }
   };
 
   return (
     <div className="min-h-screen py-24 px-10">
-      <h1 className="text-4xl font-bold mb-8">Attribution</h1>
+      <h1 className="text-4xl text-black font-bold mb-8">Attribution</h1>
       <div className="space-y-6">
         <ul className="list-disc pl-5 space-y-2">
           {clubs.map((club, index) => (

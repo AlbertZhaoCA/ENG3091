@@ -32,7 +32,7 @@ export const Highlight = ({
 };
 const CARDS = shuffledClubs.map((club, index) => ({
     id: index,
-    name: <h1 className="text-xl"><Highlight>{club.name}</Highlight></h1>,
+    name: <Highlight>{club.name}</Highlight>,
     designation: (
       <Link
         className="text-blue-500 hover:underline text-lg block ml-auto"

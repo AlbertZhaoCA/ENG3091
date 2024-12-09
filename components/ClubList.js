@@ -32,7 +32,7 @@ export default function ClubList({ clubs }) {
               alt={club.name}
               className="h-32 w-32 object-cover mx-auto mb-4 rounded-full"
             />
-            <h2 className="text-2xl font-bold mb-2">{club.name}</h2>
+            <h2 className="text-2xl text-black font-bold mb-2">{club.name}</h2>
             <p className="text-gray-700 mb-4">{club.description}</p>
             <Link
               className="block ml-auto text-blue-500 hover:underline"

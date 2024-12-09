@@ -37,7 +37,7 @@ const events = [
     cover: "/cs1.png",
     club_id: 4,
     date: "2024-5-10",
-    url: "/Computer_Activities_page.html"
+    url: "/Computer_ProjectShowcase.html"
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const events = [
     cover: "Youth2.png",
     club_id: 5,
     date: "2024-5-10",
-    url: "/Youth_Activities_page.html"
+    url: "/Youth_Scientist.html"
   },
   {
     id: 7,

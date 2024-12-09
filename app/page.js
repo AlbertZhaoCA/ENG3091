@@ -13,12 +13,15 @@ export default function HomePage() {
 
       <CategoryAnimation />
 
-      <div className="min-h-screen pb-8 mb-8">
+      <div className="min-h-screen py-8 mb-8">
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-          <h1 className="text-4xl mb-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            Wenzhou-Kean University clubs gather communities around sports,
-            culture, academics, advocacy and more.
+          <h1 className="text-7xl mb-8 font-extrabold tracking-tight text-gray-900">
+            Wenzhou-Kean University Clubs
           </h1>
+          <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg  sm:mx-auto lg:mx-0 lg:text-xl">
+          Wenzhou-Kean University clubs gather communities around sports,
+          culture, academics, advocacy and more. Have a detiled look at our clubs. 
+          </p>
           <div className="grid grid-cols-2 place-items-center gap-24">
           <ClubCardStack />
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
