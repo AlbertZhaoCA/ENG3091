@@ -15,18 +15,18 @@ export function OrganizationStructure() {
         <Boxes />
   
         <h1 className={cn(" text-6xl font-bold text-center m-4 text-white relative z-20")}>
-          Wenzhou-Kean University Science Research Association
+          WKU SRA
         </h1>
   
         <p
           className={cn(
-            "md:text-2xl max-w-5xl text-justify text-2xl mt-4 mb-24 text-white relative z-20"
+            "md:text-2xl leading-relaxed max-w-5xl text-justify text-2xl mt-4 mb-24 text-white relative z-20"
           )}
         >
-          We are a student organization dedicated to fostering scientific innovation and academic development. Our mission is to provide a platform where members can explore, collaborate, and grow their skills in science and technology. 
-          <Highlight delay={0} duration={0.5}>
-            We strive to advance research capabilities and scientific literacy.
-          </Highlight>{" "}
+          We are a student organization dedicated to <Highlight delay={0} duration={0.5}>scientific innovation and academic development.          </Highlight>{" "}
+          Our mission is to provide a platform where members can explore, collaborate, and grow their skills in science and technology. 
+          
+          
           Through various initiatives, we aim to empower every "wisdom keeper" to pursue academic excellence and contribute to groundbreaking research.
         </p>
         <h1 className={cn("font-bold text-4xl mb-4 text-white relative z-20")}>
@@ -35,22 +35,19 @@ export function OrganizationStructure() {
   
         <p
           className={cn(
-            "md:text-2xl max-w-5xl text-justify text-2xl mb-24 text-white relative z-20"
+            "md:text-2xl max-w-5xl text-justify text-2xl mb-24 text-white relative z-20 leading-relaxed"
           )}
         >
-          The association is composed of a dynamic team working toward
-          <Highlight delay={0.5} duration={0.5}>
-            promoting scientific research and academic exploration.
-          </Highlight>{" "}
-          Our structure includes the 
+          We are organized into two departments:{" "}
           <Highlight delay={1} duration={1}>
-            Presidium, Administrative Department, and Academic Department.
+          Administrative Department, and Academic Department.
           </Highlight>{" "}
-          The Presidium sets strategic goals and oversees implementation. The Administrative Department
+          The Administrative Department
           <Highlight delay={2} duration={0.5}>
-            manages event planning and operational tasks,
+            manages and propose events, and oversees the daily operations of the association.
           </Highlight>{" "}
-          while the Academic Department organizes academic events, research projects, and collaborations.
+          while the Academic Department          <Highlight delay={2} duration={0.5}>
+          organizes academic events, research projects, and collaborations.</Highlight>
         </p>
   
         <h1 className={cn("text-4xl font-bold m-4 text-white relative z-20")}>
