@@ -26,7 +26,7 @@ export default function Page() {
       <h1 className="mt-4 text-4xl font-bold text-white z-50"> Business Academic of WKU-SRA </h1>
       <div className="grid grid-rows-[1fr_auto] gap-4 place-items-center w-full mx-auto px-10 py-12">
         <div >
-          <BackgroundGradient className="rounded-[22pxbg-white dark:bg-zinc-900">
+          <BackgroundGradient className="rounded-[22pxbg-white ">
             <CardHeader className="flex items-center space-x-4 p-5 border-b">
               <Avatar>
                 <AvatarImage

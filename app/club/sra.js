@@ -2,6 +2,9 @@ import {Boxes} from "@/components/ui/background-box";
 import { HoverEffect } from "@/components/ui/card-hover";
 import { cn } from "@/lib/utils";
 import { Highlight } from "@/components/ui/hero-hilght";
+import events from "@/data/events";
+
+const sraevents = events.filter((event) => event.club_id === 1);
 
 export default function SRA() {
   return <OrganizationStructure/>
@@ -54,6 +57,31 @@ export function OrganizationStructure() {
           Meet Our Teams
         </h1>
         <Organization />
+
+        <h2 className={cn("text-4xl font-bold m-12 text-white relative z-20")}>
+          Latest Event
+        </h2>
+        <div className="w-full max-w-4xl mx-auto mb-24 grid grid-cols-3 gap-48">
+        <iframe
+          src="//player.bilibili.com/player.html?isOutside=true&aid=1403917491&bvid=BV1Cr421u79S&cid=1525229441&p=1"
+          border="0"
+          framespacing="0"
+          allowFullScreen
+          className="w-full h-96 rounded-lg span shadow-lg col-span-2"
+        ></iframe>
+        <ul className="flex flex-col justify-center items-center space-y-4">
+          {sraevents.map((event) => (
+            <li className="hover:text-blue-600 hover:underline text-white" key={event.id}>
+              <a href={event.url ? event.url : `/events/${event.id}`}>
+                <div className="flex flex-col items-center text-center">
+                  <span className="text-lg font-semibold">{event?.name}</span>
+                  <span className="text-sm text-gray-400">{event?.date}</span>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
       </div>
     );
   }
