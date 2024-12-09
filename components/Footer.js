@@ -30,14 +30,14 @@ export default function Footer() {
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
-                  <FaFacebookSquare className="text-[48px]" />
+                  <FaFacebookSquare className="text-[48px] hover:text-red-400" />
                 </Link>
                 <Link
                   href="https://space.bilibili.com/303059613"
                   target="_blank"
                   className="text-gray-200 hover:text-gray-200"
                 >
-                  <FaBilibili className="text-[48px]" />
+                  <FaBilibili className="text-[48px] hover:text-red-400" />
                 </Link>
               </div>
             </div>

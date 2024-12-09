@@ -70,10 +70,6 @@ export default function GetInvolved() {
                 <li>
                 Wait for the club to contact you with more information, they may sent you email, message.
                 </li>
-                <li>
-                  Participate in club meetings and activities to get a feel for
-                  the club's culture.
-                </li>
                 <li>Sign up and become an active member!</li>
               </ul>
             </div>
