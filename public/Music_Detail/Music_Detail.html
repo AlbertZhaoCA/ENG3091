@@ -68,10 +68,44 @@
             font-size: 1.5em;
             text-align: center;
         }
+        .event {
+        position: fixed;
+        top: 2;
+        right: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 20px auto;
+      }
+      .event-list {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+      }
+      .event:hover .event-list {
+        display: flex;
+      }
     </style>
 </head>
 <body>
     <div class="container">
+        <div class="event">
+            <div class="event-list">
+         <a href="Music_Detail.html">Home</a>
+            <a href="Music_Event_Loong_Concert.html">Loong Concert</a>
+              <a href="Music_Event_Spring_Serenade.html">Spring Serenade</a>
+              <a href="Music_Event_Host_Comp.html">WKU's First Host Competition </a>
+              <a href="Music_Event_Loong_Live.html">Loong's Live</a>
+              
+          </div>   
+          </div>
+         
         <h1>Arts Troupe Detail</h1>
         <div class="intro">
             The WKU Art Troupe is a vibrant and creative organization dedicated to showcasing the artistic talents of its members. Comprising diverse teams such as orchestra, drama, traditional Chinese music, dance, and vocal performance, the troupe provides a platform for cultural exchange and artistic expression. Through a variety of performances and events, it celebrates creativity, teamwork, and the pursuit of artistic excellence.

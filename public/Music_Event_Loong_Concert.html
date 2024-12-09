@@ -69,6 +69,29 @@
         margin: 0 auto;
         text-align: justify;
       }
+      .event {
+        position: fixed;
+        top: 2;
+        right: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 20px auto;
+      }
+      .event-list {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+      }
+      .event:hover .event-list {
+        display: flex;
+      }
     </style>
   </head>
   <body>

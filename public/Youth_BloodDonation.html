@@ -121,6 +121,31 @@
         left: 10px;
         top: 0;
       }
+
+      .event {
+        position: fixed;
+        top: 2;
+        right: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin: 20px auto;
+      }
+      .event-list {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 10px;
+      }
+      .event:hover .event-list {
+        display: flex;
+      }
+
       @keyframes floatUp {
         0% {
           transform: translate(-50%, 100vh) rotate(45deg);
@@ -131,6 +156,7 @@
           opacity: 0;
         }
       }
+     
     </style>
   </head>
   <body>
@@ -141,6 +167,16 @@
       </div>
       <h1>2024 WKU Blood Donation Season</h1>
     </header>
+
+    <div class="event">
+      <img width="48px" height="48px" src="icons8-event-96.png"></img>
+      <div class="event-list">
+       <a href="Youth_page.html">Home</a>
+        <a href="Youth_Activities_page.html">Our Activities</a>
+        <a href="Youth_Scientist.html">Youth Scientist Summit</a>
+        <a href="Youth_BloodDonation.html">Blood Donation</a>
+      </div>
+    </div>
 
     <div class="activity-images">
         <img src="blood donation.webp" alt="Blood Donation Event" />
