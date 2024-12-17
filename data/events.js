@@ -41,14 +41,34 @@ const events = [
   },
   {
     id: 5,
-    name: "Activities of Youth Volunteer Association",
+    name: "World Young Scientist Summit",
     description:
-      "The youth volunteer association is an organization that mainly responsible for relevant volunteer activities on and off campus.",
+      "You can meet famous young scientists and their research, exchange idas and make a difference in the world with them.",
     club: "Youth Volunteer Association",
-    cover: "Youth2.png",
+    cover: "Youth_Scientist/1.png",
     club_id: 5,
     date: "2024-5-10",
     url: "/Youth_Scientist.html"
+  },{
+    id: 15,
+    name: "2024 WKU Blood Donation Season",
+    description:
+      "Share your love and save lives by donating blood. Join us in the 2024 WKU Blood Donation Season. Your kindness can make a difference!",
+    club: "Youth Volunteer Association",
+    cover: "Youth_Blood/2.png",
+    club_id: 5,
+    date: "2024-5-10",
+    url: "/Youth_BloodDonation.html"
+  },{
+    id: 16,
+    name: "Three-in-One Comprehensive Test Volunteer",
+    description:
+      "Help our perspective students to have a wonderful experience in WKU by being a volunteer in the Three-in-One Comprehensive Test. ",
+    club: "Youth Volunteer Association",
+    cover: "Youth_Test/服务2.webp",
+    club_id: 5,
+    date: "2024-5-10",
+    url: "/Youth_TestVolunteer.html"
   },
   {
     id: 7,

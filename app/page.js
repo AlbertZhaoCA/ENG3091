@@ -9,6 +9,29 @@ export default function HomePage() {
 
   return (
     <div className="bg-gray-100 min-h-screen">
+    <div className="flex p-6 h-screen">
+      <div className="w-full max-w-7xl space-y-4 my-auto mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+        <h1 className="tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+          <span className="block text-6xl xl:inline">
+            Welcome to {" "}  
+          </span>
+          <span className="block text-8xl text-indigo-600 xl:inline">
+          WKU Clubs        
+          </span>
+        </h1>
+        <p className="text-blue-400">We are student clubs association of Wenzhou-Kean University</p>
+        <div className="sm:flex sm:justify-center lg:justify-start">
+          <div className="mt-12 rounded-md shadow">
+            <a
+              href="http://wku.edu.cn"
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 "
+            >
+              Visit WKU
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
       <HeroParallax products={shuffledClubs} />
 
       <CategoryAnimation />

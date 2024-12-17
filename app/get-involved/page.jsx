@@ -56,25 +56,19 @@ export default function GetInvolved() {
           <div className="absolute inset-0 bg-cover bg-center opacity-30"></div>
           <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
-              <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+              <h2 className="text-6xl font-extrabold text-gray-900 sm:text-4xl">
                 How to Get Involved
               </h2>
-              <ul className="mt-8 list-disc list-inside text-gray-700 text-left mx-auto max-w-3xl space-y-4">
+              <ul className="mt-8 text-2xl list-disc list-inside text-gray-700 text-left mx-auto max-w-3xl space-y-4">
                 <li>
-                  Attend club fairs and events to learn more about different
-                  clubs.
+                Visit the club's website in WKU Clubs or social media pages for more
+                information.
                 </li>
                 <li>
-                  Visit the club's website or social media pages for more
-                  information.
+                  Fill the <a className="hover:underline text-blue-600" href="/join">registration form</a> with your information the club needed
                 </li>
                 <li>
-                  Contact club leaders to express your interest and ask any
-                  questions.
-                </li>
-                <li>
-                  Participate in club meetings and activities to get a feel for
-                  the club's culture.
+                Wait for the club to contact you with more information, they may sent you email, message.
                 </li>
                 <li>Sign up and become an active member!</li>
               </ul>
@@ -83,11 +77,11 @@ export default function GetInvolved() {
         </div>
         <div className="relative bg-gray-50 py-16 sm:py-24 lg:py-32">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+          <h2 className="text-6xl text-center mb-8 font-extrabold text-gray-900 sm:text-4xl">
                 Benefits of Joining a Club
-              </h2>
-              <ul className="mt-8 list-disc list-inside text-gray-700 text-left mx-auto max-w-3xl space-y-4">
+          </h2>
+            <div className="text-center grid grid-cols-2  gap-16">
+              <ul className="mt-8 text-2xl flex flex-col justify-center items-start   list-disc list-inside text-gray-700 text-left mx-auto max-w-3xl space-y-4">
                 <li>
                   Meet new people and make friends with similar interests.
                 </li>
@@ -96,6 +90,19 @@ export default function GetInvolved() {
                 <li>Participate in fun and engaging events.</li>
                 <li>Make a positive impact on the university community.</li>
               </ul>
+              <div className="mt-8 flex justify-center">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/yYFVjSG_yXg?si=LfPse-rhigoUanTF"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+                className="rounded-lg shadow-lg mx-auto w-full "
+              ></iframe>
+            </div>
             </div>
           </div>
         </div>

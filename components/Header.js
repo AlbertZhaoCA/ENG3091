@@ -39,6 +39,7 @@ export default function Header() {
               className="cursor-pointer"
             />
           </Link>
+          <p className="text-4xl">| WKU CLUBS</p>
         </div>
         <nav>
           <ul className="flex space-x-4">

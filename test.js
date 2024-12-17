@@ -1,0 +1,1 @@
+fetch('https://taobao.com').then(res => res.headers).then(console.log);

@@ -103,17 +103,6 @@ export const Header = () => {
         <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg  sm:mx-auto lg:mx-0 lg:text-xl">
           WKU Clubs provide an opportunity for every student to become involved.
         </p>
-
-        <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-          <div className="mt-12 rounded-md shadow">
-            <a
-              href="http://wku.edu.cn"
-              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 "
-            >
-              Visit WKU
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
